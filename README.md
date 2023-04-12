@@ -32,7 +32,7 @@ Initial release (v1.0): April 2023
 
 Current maintainers:
 
-+ [Werner Dobrautz](https://www.linkedin.com/in/werner-dobrautz-46873a190/), ([mastodon.cloud@dobrautz](https://mastodon.cloud/@dobrautz), [twitter@dobrautz](https://twitter.com/dobrautz), werner.dobrautz@gmail.com),
++ [Werner Dobrautz](https://www.linkedin.com/in/werner-dobrautz-46873a190/) ([mastodon.cloud@dobrautz](https://mastodon.cloud/@dobrautz), [twitter@dobrautz](https://twitter.com/dobrautz), werner.dobrautz@gmail.com)
 
 ## License
 
