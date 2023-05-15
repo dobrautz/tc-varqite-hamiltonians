@@ -1,0 +1,34 @@
+JASTROW:
+  TERM 1:
+    Rank: [ 2, 0 ]
+    e-e basis: [ Type: natural power, Order: 9 ]
+    e-e cutoff:
+      Type: polynomial
+      Constants: [ C: 3 ]
+      Parameters:
+        Channel 1-2:
+          L: [ 4.60, fixed ]
+    Rules: [ 1=2 ]
+    Linear parameters:
+      Channel 1-2: []
+  TERM 2:
+    Rank: [ 1, 1 ]
+    e-n basis: [ Type: natural power, Order: 9 ]
+    e-n cutoff:
+      Type: polynomial
+      Constants: [ C: 3 ]
+      Parameters:
+        Channel 1-n1:
+          L: [ 4.10, fixed ]
+    Rules: [ 1=2, Z ]
+  TERM 3:
+    Rank: [ 2, 1 ]
+    e-e basis: [ Type: natural power, Order: 4 ]
+    e-n basis: [ Type: natural power, Order: 4 ]
+    e-n cutoff:
+      Type: polynomial
+      Constants: [ C: 3 ]
+      Parameters:
+        Channel 1-n1:
+          L: [ 3.80 ,  fixed ]
+    Rules: [ 1=2, Z ]
