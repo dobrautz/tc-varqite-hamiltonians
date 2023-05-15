@@ -1,0 +1,6 @@
+1) Create HF/MP2 orbitals in chosen basis in .molden format using PySCF with scripts provided in scrips/
+2) Convert .molden files to CASINO readable format using utils/wfn_converters/molden/molden2qmc.py from CASINO installation
+3a) Pre-optimize Jastrow factor in case of Variance minimization. For details write dobrautz@chalmers.se
+3) Optimize Jastrow factor (specified in the parameters.casl files) with CASINO. Needs converted molden file and input file (samples given in subfolders)
+4) Use the TCHInt library to produce TC Hamiltonian in second quantization. Need .molden file and optimized Jastrow factor (parameters.x.casl). Outputs 2- and 3-body integrals in FCIDUMP and TCDUMP format.
+5) Use TC-VarQITE (on quantum hardware) or TC-FCIQMC method (on conventional hardware) to solve for ground state
